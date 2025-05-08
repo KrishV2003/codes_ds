@@ -1,0 +1,25 @@
+object HelloWorld {
+	def main(args: Array[String]): Unit = {
+		println("Hello, World!")
+	}
+}
+
+
+HelloWorld.main(Array()
+)
+
+
+object AdditionExmaple {
+	def main(args: Array[String]): Unit = {
+		//Declare two numbers
+		val num1 = 10
+		val num2 = 20
+		
+		val sum = num1 + num2
+		println(s"The sum of $num1 and $num2 is: $sum")
+	}
+}
+
+AdditionExmaple.main(Array())
+
+
