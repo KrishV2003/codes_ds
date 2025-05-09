@@ -84,3 +84,7 @@ tfidf_df = pd.DataFrame(
 
 print("\nTF–IDF Matrix (scikit-learn):")
 print(tfidf_df)
+
+# # Read the content of sample.txt into the new_doc variable
+#with open("sample.txt", "r", encoding="utf-8") as file:
+#    new_doc = file.read()
