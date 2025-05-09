@@ -23,3 +23,16 @@ object AdditionExmaple {
 AdditionExmaple.main(Array())
 
 
+object AgeCheckApp {
+  def main(args: Array[String]): Unit = {
+    // Declare an age variable
+    val age = 20
+    
+    // Check if the age is 18 or older
+    if (age >= 18) {
+      println("You are an adult.")
+    } else {
+      println("You are a minor.")
+    }
+  }
+}
